@@ -6,12 +6,12 @@ import { fileURLToPath } from "url";
 import jwt from 'jsonwebtoken';
 import cookieParser from 'cookie-parser';
 import bcrypt from 'bcryptjs';
-import authRouter from '/home/kukititi/ayudaporfi/routes/auth.js';
-import productsRouter from '/home/kukititi/ayudaporfi/routes/products.js';
-import cartRouter from '/home/kukititi/ayudaporfi/routes/cart.js';
-import profileRouter from '/home/kukititi/ayudaporfi/routes/profile.js';
+import authRouter from './routes/auth.js';
+import productsRouter from './routes/products.js';
+import cartRouter from './routes/cart.js';
+import profileRouter from './routes/profile.js';
 import { isatty } from 'tty';
-import adminRouter from '/home/kukititi/ayudaporfi/routes/admin.js';
+import adminRouter from './routes/admin.js';
 
 
 
