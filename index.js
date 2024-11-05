@@ -220,7 +220,7 @@ app.post('/registrar', async (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
 
-  if (!email || !rut || !password) {
+  if (!email || !name || !password) {
     res.redirect(302, 'login?error=missing_fields');
     return;
 }
